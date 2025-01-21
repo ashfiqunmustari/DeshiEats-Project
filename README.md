@@ -36,55 +36,55 @@ The project includes a comprehensive report detailing the entire development lif
 
 **2.	Team Introduction:** Information about contributors and roles.
 
-**3.	Background of the Study: **
+**3.	Background of the Study:**
 
-**o	Project Background**
+  **o	Project Background**
 
-**o	Objectives (Primary and Secondary)**
+  **o	Objectives (Primary and Secondary)**
 
-**4.	Methodology: **
+**4.	Methodology:**
 
-**o	Process Model**
+  **o	Process Model**
 
 **5.	Project Development:** 
 
-**o	Communication (including survey results)**
+  **o	Communication (including survey results)**
 
-**o	Planning: **
+  **o	Planning:**
 
-	PERT and CPM diagrams
+      a. PERT and CPM diagrams
 
-	Gantt charts
+      b. Gantt charts
 
-	Software and project estimation
+      c. Software and project estimation
 
-	Cost-benefit analysis
+      d. Cost-benefit analysis
 
-	Risk analysis
+      e. Risk analysis
 
-	Resource requirements
+      f. Resource requirements
 
-**o	Modeling: **
+  **o	Modeling:**
 
-	Use Case, Class, Sequence, and Activity diagrams
+      a. Use Case, Class, Sequence, and Activity diagrams
 
-	Data Flow Diagram and System Architecture
+      b. Data Flow Diagram and System Architecture
 
-	UI/UX design
+      c. UI/UX design
 
-	Entity Relationship and Schema diagrams
+      d. Entity Relationship and Schema diagrams
 
 **6.	Construction:** 
 
-o	Development environment setup
+    a. Development environment setup
 
-o	Testing strategies and techniques
+    b. Testing strategies and techniques
 
-**7.	Deployment: **
+**7.	Deployment:**
 
-o	Deployment process
+    a. Deployment process
 
-o	Support and maintenance plans
+    b. Support and maintenance plans
 
 ## **Contribution**
 
