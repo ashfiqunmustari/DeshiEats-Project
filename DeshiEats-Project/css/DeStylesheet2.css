@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1616;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.ico {
+  text-align: center;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.navwrite {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.navlogo {
+  margin-bottom: 12px;
+}
+
+.navlogo img {
+  width: 150px;
+  height: 120px;
+}
+.nav-item:hover {
+  background-color: indianred;
+  border-radius: 10px;
+}
+
+.userprofileheadinguser {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.orderhead {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.orderdatas {
+  color: darkgrey;
+  font-size: 15px;
+  text-align: center;
+}
+
+.ordertable {
+  text-align: center;
+  box-shadow: 0 5px 10px grey;
+  color: rgb(250, 193, 193);
+}
+
+.totalbox {
+  box-shadow: 0 5px 10px grey;
+  margin-bottom: 20px;
+  margin: 0px 250px 0px 250px;
+}
+
+thead {
+  box-shadow: 0 5px 10px grey;
+}
+th {
+  text-transform: uppercase;
+}
+
+.userprofileimage {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.userprofiledit0 img {
+  width: 55%;
+  clip-path: circle();
+}
+
+.userprofilelabels {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.footerimg img {
+  width: 280px;
+  height: 300px;
+}
+
+.plusMinusButton {
+  padding: 5px 12px 5px 12px;
+  font-size: 13px;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #384f5e;
+  background-color: #7c97c9;
+  border-color: #223349;
+  width: 100%;
+}
+
+.plusMinusButton:hover,
+.plusMinusButton:active,
+.plusMinusButton:focus,
+.plusMinusButton.active {
+  background: #1f3247;
+  color: #ffffff;
+  border-color: #25325e;
+}
+
+.btn-submit {
+  position: relative;
+  padding: 11px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #7a9cbd;
+  border: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.btn-submit:hover {
+  background: #2d435c;
+}
+
+.upload {
+  width: 150px;
+  position: relative;
+  margin: 50px 150px auto auto;
+}
+
+.upload img {
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+}
+
+.upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00b4ff;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.imgview {
+  width: 150px;
+  position: relative;
+  margin: auto;
+}
+
+.imgview img {
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+}
+
+.imgview .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00b4ff;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.container {
+  justify-content: center;
+}
+
+.orderButton {
+  padding: 5px 15px 5px 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  color: #1d252b;
+  background-color: #ee6060;
+  border-color: #223349;
+  width: 30%;
+}
+
+.orderButton:hover,
+.orderButton:active,
+.orderButton:focus,
+.orderButton.active {
+  background: #1f3247;
+  color: #ffffff;
+  border-color: #25325e;
+}
+
+/* Navbar codes end here....*/
+
+.contents {
+  min-height: 510px;
+}
+
+/* Footer Code starts from here.....*/
+
+.footer_wrapper {
+  align-items: flex-end;
+}
+
+h1 {
+  color: wheat;
+}
+
+.footwrite {
+  text-decoration: none;
+  color: wheat;
+}
+
+.footicons {
+  font-size: 30px;
+}
+
+.last {
+  color: tomato;
+}
+
+/*Register page codes start here.....*/
+
+.regcon {
+  padding-top: 20px;
+}
+
+/* Login Codes start from here..*/
+
+.rowbg {
+  margin-top: 5%;
+  background-color: black;
+}
+
+.loginlog {
+  text-align: center;
+}
+
+.loginlog img {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.formbox {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.btn {
+  background-color: rgb(44, 141, 197);
+  width: 100%;
+  align-items: center;
+}
+.frombuto {
+  justify-content: center;
+}
+
+.welcome {
+  color: blue;
+  font-size: 25px;
+}
+
+.dont {
+  color: #379683;
+  font-size: 20px;
+}
+
+.signupregi {
+  color: blue;
+  text-decoration: none;
+  font-size: 28px;
+  padding-left: 3%;
+}
+
+.formlabel {
+  color: #6132ee;
+  font-size: 20px;
+}
+
+.f_swi {
+  margin-left: 20px;
+}
+
+.labe {
+  color: #6132ee;
+  font-size: 20px;
+}
+
+.dontre {
+  color: #379683;
+  font-size: 18px;
+}
+
+.cartButton {
+  color: #384f5e;
+  background-color: #2cb1bb;
+  border-color: #c4f8ee;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  width: 85%;
+}
+
+.cartButton:hover,
+.cartButton:active,
+.cartButton:focus,
+.cartButton.active {
+  background: #4fbfa8;
+  color: #ffffff;
+  border-color: #4fbfa8;
+}
+
+.allorders {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.ordertable {
+  text-align: center;
+}

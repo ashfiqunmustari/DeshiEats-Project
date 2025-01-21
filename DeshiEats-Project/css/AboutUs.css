@@ -1,0 +1,136 @@
+.aboutus{
+	position:relative;
+	min-height:100vh;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background:url(../images/ContactBG.jpg);
+	background-size:cover;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:'Poppins', sans-serif;
+}
+
+.aboutus .content{
+	margin-top: 50px;
+	max-width:800px;
+	text-align:center;
+}
+.aboutus .content h2{
+	font-size: 36 px;
+	font-weight: 500;
+	color:indianred;
+}
+.aboutus .content p{
+	font-weight:300;
+	color:#fff;
+}
+.StoryBox{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+	text-align:center;
+	margin: 30px auto;
+  }
+.StoryBox h2{
+margin: 0px auto;
+font-family: var(--cursive-font);
+font-family: 'Dancing Script', cursive;
+color: indianred;
+  }
+.StoryBox p{
+	  color:white;
+	  padding: 20px 50px;
+  }
+  
+.DevTitle {
+	padding: 50px 0px;
+	margin: 0px auto;	
+	font-family: 'Poppins', sans-serif;
+	font-weight:400;
+	color: white;	
+}
+.DevTitle h2{
+	
+}
+
+.cards_wrap {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+	.cards_wrap .card_item {
+		padding: 0px 25px 15px;
+		width: 20%;
+	}
+
+	.cards_wrap .card_item img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		padding: 2px;
+		border: 3px solid #285473;
+		margin: 0px 10%;
+	}
+
+	.cards_wrap .card_item .dev_name {
+		color: indianred;
+		font-weight: 900;
+		font-size: 20px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-align: center;
+		margin-bottom:20px;
+	}
+	.ContactBtn {
+    align-items: center;
+    background-color: rgba(41,96,143,0.3);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue",sans-serif;
+    font-size: 100%;
+    line-height: 15px;
+    margin: 0px auto 80px;
+    text-align: center;
+	width: 300px;
+	height:60px;
+}
+.ContactBtn a {
+	margin:10px auto;
+	color:#fff;
+	text-decoration:none;
+}
+
+    .ContactBtn:active {
+        background-color: rgba(41,96,143,0.3);
+    }
+
+    .ContactBtn:hover {
+        background-color: indianred;
+        color: #fff;
+    }
+
+@media (max-width:991px){
+	.aboutus{
+		padding:50px;
+	}
+	.container{
+		flex-direction:column;
+	}

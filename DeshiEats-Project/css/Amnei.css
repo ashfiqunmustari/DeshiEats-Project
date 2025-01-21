@@ -1,0 +1,12 @@
+body{
+    background-color: #1b1616;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    height: 125px;
+}
+
+.navbar-nav{
+    text-align: center;
+}
